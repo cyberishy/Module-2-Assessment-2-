@@ -1,0 +1,109 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9fc; /* Light background for contrast */
+    color: #333; /* Dark text color */
+}
+
+/* Navbar container */
+.book-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #add8e6; /* Light blue navbar */
+    padding: 10px 20px;
+    border-bottom: 3px solid #4682b4; /* Darker blue border */
+}
+
+.book-logo img {
+    height: 50px;
+}
+
+.book-nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.book-nav-links li {
+    margin: 0 15px;
+}
+
+.book-nav-links a {
+    color: #333; /* Dark text color */
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.book-nav-links a:hover {
+    color: #4682b4; /* Darker blue on hover */
+}
+
+/* Book Nook Section */
+.book-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.book-shop-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.book-shop-logo {
+    height: 100px;
+    margin-right: 20px;
+}
+
+.book-shop-header h1 {
+    font-size: 3rem;
+    color: #4682b4; /* Darker blue heading color */
+}
+
+.book-shop-description {
+    margin-bottom: 40px;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #333; /* Dark text color */
+}
+
+/* Book Nook Gallery */
+.book-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-gallery img {
+    width: 32%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #4682b4; /* Darker blue border */
+}
+
+.book-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.book-footer {
+    background-color: #add8e6; /* Light blue footer */
+    color: #333; /* Dark text color */
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

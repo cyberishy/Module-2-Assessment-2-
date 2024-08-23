@@ -1,0 +1,107 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light grey background for subtle contrast */
+    color: #333; /* Dark text color */
+}
+
+/* Navbar container */
+.pine-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; /* White navbar */
+    padding: 10px 20px;
+    border-bottom: 2px solid #004080; /* Dark blue border */
+}
+
+.pine-logo img {
+    height: 50px;
+}
+
+.pine-nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.pine-nav-links li {
+    margin: 0 15px;
+}
+
+.pine-nav-links a {
+    color: #004080; /* Dark blue text color */
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Pine Cinema Section */
+.pine-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pine-shop-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: white/* Black background for header */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.pine-shop-logo {
+    height: 100px;
+    margin-right: 20px;
+}
+
+.pine-shop-header h1 {
+    font-size: 3rem;
+    color: #00aaff; /* Light blue heading color */
+}
+
+.pine-shop-description {
+    margin-bottom: 40px;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+/* Pine Cinema Gallery */
+.pine-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pine-gallery img {
+    width: 32%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pine-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.pine-footer {
+    background-color: #000000; /* Black footer */
+    color: #ffffff; /* White text color */
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

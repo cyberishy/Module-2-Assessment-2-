@@ -1,0 +1,100 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background for the page */
+    color: #fff; /* White text color */
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #00aaff; /* Light blue color for links */
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Movie Details Section */
+.movie-details {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 12px;
+    display: flex;
+    gap: 20px;
+}
+
+.movie-header {
+    display: flex;
+    gap: 20px;
+}
+
+.movie-poster {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.movie-info {
+    max-width: 800px;
+}
+
+.movie-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #00aaff;
+}
+
+.movie-info p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.movie-info .synopsis {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #000;
+    color: #00aaff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    margin: 0;
+}

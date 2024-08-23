@@ -1,0 +1,109 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Light grey background for contrast */
+    color: #333; /* Dark text color */
+}
+
+/* Navbar container */
+.tech-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000; /* Black navbar */
+    padding: 10px 20px;
+    border-bottom: 3px solid #00ff00; /* Neon green border */
+}
+
+.tech-logo img {
+    height: 50px;
+}
+
+.tech-nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.tech-nav-links li {
+    margin: 0 15px;
+}
+
+.tech-nav-links a {
+    color: #00ff00; /* Neon green text color */
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Tech Haven Section */
+.tech-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.tech-shop-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #000000; /* Black background for header */
+    color: #00ff00; /* Neon green text color */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.tech-shop-logo {
+    height: 200px;
+    margin-right: 20px;
+}
+
+.tech-shop-header h1 {
+    font-size: 3rem;
+    color: #00ff00; /* Neon green heading color */
+}
+
+.tech-shop-description {
+    margin-bottom: 40px;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #333; /* Dark text color */
+}
+
+/* Tech Haven Gallery */
+.tech-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech-gallery img {
+    width: 32%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #00ff00; /* Neon green border */
+}
+
+.tech-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.tech-footer {
+    background-color: #000000; /* Black footer */
+    color: #00ff00; /* Neon green text color */
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
